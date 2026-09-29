@@ -1,0 +1,4 @@
+../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22:LL_AHB4_GRP1_EnableClock	1
+../Application/lcd_port.c:31:11:LCD_GetFramebuffer	1
+../Application/lcd_port.c:113:5:LCD_Init	4
+../Application/lcd_port.c:170:6:hm_cache_clean	3

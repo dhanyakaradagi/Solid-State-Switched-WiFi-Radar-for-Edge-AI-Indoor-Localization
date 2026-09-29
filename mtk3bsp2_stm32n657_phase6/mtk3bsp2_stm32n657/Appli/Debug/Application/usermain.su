@@ -1,0 +1,9 @@
+../Application/usermain.c:88:13:tele_send	0	static
+../Application/usermain.c:95:13:tele_puts	8	static
+../Application/usermain.c:452:12:display_task	104	static,ignoring_inline_asm
+../Application/usermain.c:31:6:ARECH_Print	8	static
+../Application/usermain.c:413:12:low_priority_telemetry_task	144	static
+../Application/usermain.c:199:12:med_priority_localization_task	248	static,ignoring_inline_asm
+../Application/usermain.c:35:10:HAL_GetTick	16	static
+../Application/usermain.c:115:12:high_priority_capture_task	264	static
+../Application/usermain.c:513:12:usermain	128	static

@@ -1,0 +1,317 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Middlewares/ST/threadx/test/tx/regression/testcontrol.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.c \
+../Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.c 
+
+OBJS += \
+./Middlewares/ST/threadx/test/tx/regression/testcontrol.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.o \
+./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.o 
+
+C_DEPS += \
+./Middlewares/ST/threadx/test/tx/regression/testcontrol.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.d \
+./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Middlewares/ST/threadx/test/tx/regression/%.o Middlewares/ST/threadx/test/tx/regression/%.su Middlewares/ST/threadx/test/tx/regression/%.cyclo: ../Middlewares/ST/threadx/test/tx/regression/%.c Middlewares/ST/threadx/test/tx/regression/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -I../../Middlewares/ST/STM32_ExtMem_Manager -I../../Middlewares/ST/STM32_ExtMem_Manager/boot -I../../Middlewares/ST/STM32_ExtMem_Manager/sal -I../../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp -I../../Middlewares/ST/STM32_ExtMem_Manager/psram -I../../Middlewares/ST/STM32_ExtMem_Manager/sdcard -I../../Middlewares/ST/STM32_ExtMem_Manager/user -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Middlewares-2f-ST-2f-threadx-2f-test-2f-tx-2f-regression
+
+clean-Middlewares-2f-ST-2f-threadx-2f-test-2f-tx-2f-regression:
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/testcontrol.cyclo ./Middlewares/ST/threadx/test/tx/regression/testcontrol.d ./Middlewares/ST/threadx/test/tx/regression/testcontrol.o ./Middlewares/ST/threadx/test/tx/regression/testcontrol.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_basic_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_error_detection_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_prioritize_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_suspension_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_block_memory_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_basic_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_prioritize_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_suspension_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_contention_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_byte_memory_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_basic_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.o
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_set_clear_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_isr_wait_abort_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_single_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_consume_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_consume_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_different_bits_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_suspension_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_event_flag_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_initialize_kernel_setup_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_interrupt_control_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_basic_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_delete_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_nested_priority_inheritance_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_no_preemption_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_preemption_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_priority_inheritance_test.su
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_proritize_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_suspension_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_mutex_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_eight_word_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_four_word_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_one_word_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_sixteen_word_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_basic_two_word_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_empty_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_no_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_flush_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_front_send_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_full_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_prioritize.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_suspension_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_queue_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_basic_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.d
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_ceiling_put_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_delete_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_non_preemption_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_preemption_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_prioritize.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_thread_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_semaphore_timeout_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_execution_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_basic_time_slice_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_completed_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_create_preemption_threshold_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_delayed_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multi_level_preemption_threshold_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_non_current_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_sleep_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.cyclo
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_multiple_time_slice_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemptable_suspension_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_preemption_change_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_priority_change.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_relinquish_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_reset_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_non_clear_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_sleep_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_simple_suspend_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_for_100ticks_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_sleep_terminate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_stack_checking_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_terminate_delete_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_time_slice_change_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_and_isr_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_thread_wait_abort_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_time_get_set_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_activate_deactivate_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.cyclo
+	-$(RM) ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_deactivate_accuracy_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_information_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_large_timer_accuracy_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_accuracy_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_multiple_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_timer_simple_test.su ./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.cyclo ./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.d ./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.o ./Middlewares/ST/threadx/test/tx/regression/threadx_trace_basic_test.su
+
+.PHONY: clean-Middlewares-2f-ST-2f-threadx-2f-test-2f-tx-2f-regression
+

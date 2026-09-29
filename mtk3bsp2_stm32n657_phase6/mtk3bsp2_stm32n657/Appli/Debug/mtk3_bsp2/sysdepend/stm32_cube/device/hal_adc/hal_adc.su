@@ -1,0 +1,7 @@
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:148:10:dev_adc_openfn	0	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:162:10:dev_adc_closefn	0	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:189:10:dev_adc_writefn	0	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:208:10:dev_adc_eventfn	0	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:170:10:dev_adc_readfn	40	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:84:6:HAL_ADC_ConvCpltCallback	8	static
+../mtk3_bsp2/sysdepend/stm32_cube/device/hal_adc/hal_adc.c:216:11:dev_init_hal_adc	88	static

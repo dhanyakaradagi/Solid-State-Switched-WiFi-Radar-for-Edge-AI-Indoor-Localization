@@ -1,0 +1,10 @@
+../Application/heatmap.c:135:13:fill_rect	9
+../Application/heatmap.c:167:13:draw_text	6
+../Application/heatmap.c:172:14:cat	2
+../Application/heatmap.c:178:14:cat_int	5
+../Application/heatmap.c:202:13:build_cmap	6
+../Application/heatmap.c:148:13:put_px.constprop	3
+../Application/heatmap.c:124:28:hm_cache_clean	1
+../Application/heatmap.c:379:6:hm_update	43
+../Application/heatmap.c:368:6:hm_init	14
+../Application/heatmap.c:445:6:hm_test_pattern	4

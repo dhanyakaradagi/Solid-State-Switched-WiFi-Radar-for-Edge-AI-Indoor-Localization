@@ -1,0 +1,7 @@
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:38:9:OPENBL_FlashLayout_Parse_Layout	21
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:171:9:OPENBL_Flashlayout_Parse_ID	5
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:206:9:OPENBL_Flashlayout_Parse_Offset	5
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:241:9:OPENBL_Flashlayout_Parse_Name	1
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:258:9:OPENBL_Flashlayout_Parse_Type	1
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:275:9:OPENBL_Flashlayout_Parse_IP	1
+../Middlewares/ST/OpenBootloader/Util/openbl_util.c:292:9:OPENBL_Flashlayout_Parse_Option	1

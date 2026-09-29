@@ -1,0 +1,12 @@
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:142:38:EXTMEM_DRIVER_NOR_SFDP_Init	48	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:276:38:EXTMEM_DRIVER_NOR_SFDP_DeInit	16	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:289:6:EXTMEM_DRIVER_NOR_SFDP_GetFlashInfo	16	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:315:38:EXTMEM_DRIVER_NOR_SFDP_Read	40	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:349:38:EXTMEM_DRIVER_NOR_SFDP_Write	56	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:431:38:EXTMEM_DRIVER_NOR_SFDP_WriteInMappedMode	136	static,ignoring_inline_asm
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:569:38:EXTMEM_DRIVER_NOR_SFDP_MassErase	24	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:616:38:EXTMEM_DRIVER_NOR_SFDP_SectorErase	32	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:706:38:EXTMEM_DRIVER_NOR_SFDP_Enable_MemoryMappedMode	40	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:729:38:EXTMEM_DRIVER_NOR_SFDP_Disable_MemoryMappedMode	24	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:768:38:driver_set_FlagWEL	56	static
+../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver.c:831:13:EXTMEM_MemCopy	32	static
